@@ -1,0 +1,34 @@
+.container {
+  width: 1200px;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-top: 6%;
+}
+
+.min-height {
+  min-height: 90%;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+}

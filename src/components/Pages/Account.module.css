@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  min-height: 80vh;
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.conteudo {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+}
+
+.conteudo p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.btnCriarConta {
+  padding: 12px 25px;
+  margin: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #4CAF50, #45A049);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnEntrar {
+  padding: 12px 25px;
+  margin: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #4CAF50, #45A049);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnCriarConta:hover {
+  background: linear-gradient(90deg, #45A049, #4CAF50);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

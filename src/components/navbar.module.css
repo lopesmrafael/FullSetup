@@ -1,0 +1,42 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #19355b;
+  position: fixed;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.logo {
+  width: 200px;
+}
+
+.item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: #2b5796;
+}
+
+@media (max-width: 768px) {
+  
+  .logo {
+    width: 150px;
+  }
+
+  .item a {
+    font-size: 1.1rem;
+  }
+}
