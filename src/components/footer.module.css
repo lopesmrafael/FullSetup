@@ -11,12 +11,13 @@
   list-style-type: none;
 }
 
-.social_list li {
+.social_list a {
   margin: 0 1em;
+  color: #1375fd;
 }
 
-.social_list li:hover {
-  color: #2b5796;;
+.social_list a:hover {
+  color: #65a0f3;;
 }
 
 .social_list svg {
@@ -30,5 +31,5 @@
 
 .copy_right span {
   font-weight: bold;
-  color: #ffbb23;
+  color: #4c86d8;
 }
